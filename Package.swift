@@ -1,4 +1,4 @@
-// swift-tools-version:5.5.0
+// swift-tools-version:6.0.3
 import PackageDescription
 
 let package = Package(
@@ -17,13 +17,13 @@ let package = Package(
     targets: [
             .binaryTarget(
       name: "Realm",
-      url: "https://github.com/RomanEsin/RealmBinary/releases/download/v10.32.3/Realm.xcframework.zip",
-      checksum: "b454140a1a654ba006cc7d98ce0b78462d1c47e16c40ff33cd777f60bffcfbce"
+      url: "https://github.com/AV8R-/RealmBinary/releases/download/v10.54.2/Realm.xcframework.zip",
+      checksum: "e6524357e312717619c9d9d14b4082fafb76005eab9d2bd5ce79602fdfc00639"
     ),
     .binaryTarget(
       name: "RealmSwift",
-      url: "https://github.com/RomanEsin/RealmBinary/releases/download/v10.32.3/RealmSwift.xcframework.zip",
-      checksum: "b3bf5c1f9d3d1fb8a31affdd539c8a741905bc7a1b0eda4781d7e35b19e8fbf7"
+      url: "https://github.com/AV8R-/RealmBinary/releases/download/v10.54.2/RealmSwift.xcframework.zip",
+      checksum: "99de1d38e2afe2d2e3ba06547fb412f15adebd9426fc7b627c82c51debf0b2d2"
     )
     ]
 )
